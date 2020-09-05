@@ -3,21 +3,20 @@
  * Copyright Zwerb LLC. All Rights Reserved.
  *
  * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://zwerb.com/license
+ * found in the LICENSE file at https://raw.githubusercontent.com/zwerb/node_neuron/master/LICENSE
  */
 /**
  * @description
  *
- * This is an experimental class to represent a Neuron
+ * This is an experimental class to represent a Neural Network 
+ * which is a collection or layer of Neuron classes.
  *
  * @usageNotes
  *
- * Usage Notes 
- *
  * ### Example
  *
- *
- * @publicApi
+ * var network_a = new NeuralNetwork();
+ * 
  */
 
 const Neuron = require('./neuron.js');

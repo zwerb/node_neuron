@@ -3,22 +3,27 @@
  * Copyright Zwerb LLC. All Rights Reserved.
  *
  * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://zwerb.com/license
+ * found in the LICENSE file at https://raw.githubusercontent.com/zwerb/node_neuron/master/LICENSE
  */
 /**
  * @description
  *
  * This is an experimental class to represent a Neuron
  *
- * @usageNotes
+ * ### TO-DO:
+ * 	-narrow down the best object / array / structure to represent the parts of the neuron
  *
- * Usage Notes 
+ *
+ *
+ * 
+ * @usageNotes
  *
  * ### Example
  *
- *
- * @publicApi
+ * var neuron_a = new Neuron();
+ * 
  */
+
 
 class Neuron {
 	constructor(name = "unnamed neuron", inbound_connection_neurons = [], outbound_connection_neurons = [], inbound_weights = []){

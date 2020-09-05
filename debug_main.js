@@ -2,9 +2,7 @@ const Neuron = require('./neuron.js');
 const NeuralNetwork = require('./neuralnetwork.js');
 
 /**
-* Main Pogram Logic
-*
-* For instantiating Neurons, Neural Networks
+* Debug Main Logic for testing out new constructions and functions
 *
 *
 **/
